@@ -5,7 +5,7 @@ import numpy as np
 
 @st.cache_resource(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model('cheating_detection_model.h5') # Assuming a .h5 model file
+    model = tf.keras.models.load_model('cheating_gru_model(0.88ac, 0.97 val).keras') # Assuming a .h5 model file
     return model
 
 def preprocess_image(image_data, model_input_size=(64, 64)): # Adjust size as needed
