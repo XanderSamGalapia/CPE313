@@ -3,4 +3,3 @@ opencv-python
 numpy
 ultralytics
 tensorflow
-cv2
