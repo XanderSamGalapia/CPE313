@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 # Load the YOLO model for pose estimation
 @st.cache_resource
-def load_yolo_model(weights_path="weights.best"):
+def load_yolo_model(weights_path="weights/best.pt"):
     """Loads the YOLO model for pose estimation."""
     try:
         yolo_model = YOLO(weights_path)
