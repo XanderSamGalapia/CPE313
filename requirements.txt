@@ -1,6 +1,5 @@
-cv2
 streamlit
-tensorflow
-ultralytics
 opencv-python
 numpy
+ultralytics
+tensorflow
